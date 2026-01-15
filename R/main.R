@@ -158,7 +158,7 @@ sn_communes <- function() {
 #' * NAME: locality name
 #' * CC_1: unkown code
 #' * CC_2: unkown code
-#' @source Unknown source
+#' @source Direction des Travaux geographiques et de la cartographie, Senegal.
 #' @md
 #' @returns An sf object is returned.
 #' @export
@@ -177,10 +177,11 @@ sn_localities <- function() {
 
 #' @title Roads
 #' @description
-#' National and departmental roads of Senegal.
+#' Roads of Senegal.
+#' * TYPE: road type. 1 for motorways, 2 for national roads, 3 for regional
+#' roads, 4 for departmental roads, 5 for other roads.
 #' * NAME: road name
-#' * TYPE: road type ("N" for national roads, "D" for departmental roads)
-#' @source Unknown source
+#' @source Direction des Travaux geographiques et de la cartographie, Senegal.
 #' @md
 #' @returns An sf object is returned.
 #' @export
@@ -202,8 +203,8 @@ sn_roads <- function() {
 #' * NAME: health facility name
 #' * CC_1: unkown code
 #' * CC_2: unkown code
-#' * TYPE: road type ("N" for national roads, "D" for departmental roads)
-#' @source Unknown source
+#' * TYPE: health facility category
+#' @source Direction des Travaux geographiques et de la cartographie, Senegal.
 #' @md
 #' @returns An sf object is returned.
 #' @export
@@ -225,7 +226,7 @@ sn_health_facilities <- function() {
 #' * NAME: university name
 #' * NB_FACULTIES: number of faculties
 #' * NB_STUDENTS: number of students
-#' @source Unknown source
+#' @source Dataset gathered by Labaly Toure.
 #' @md
 #' @returns An sf object is returned.
 #' @export

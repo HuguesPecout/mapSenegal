@@ -4,7 +4,7 @@
 \alias{sn_universities}
 \title{Universities}
 \source{
-Unknown source
+Dataset gathered by Labaly Toure.
 }
 \usage{
 sn_universities()

@@ -4,7 +4,7 @@
 \alias{sn_health_facilities}
 \title{Health facilities}
 \source{
-Unknown source
+Direction des Travaux geographiques et de la cartographie, Senegal.
 }
 \usage{
 sn_health_facilities()
@@ -18,7 +18,7 @@ Health facilities of Senegal
 \item NAME: health facility name
 \item CC_1: unkown code
 \item CC_2: unkown code
-\item TYPE: road type ("N" for national roads, "D" for departmental roads)
+\item TYPE: health facility category
 }
 }
 \examples{

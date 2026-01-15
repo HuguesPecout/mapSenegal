@@ -4,7 +4,7 @@
 \alias{sn_localities}
 \title{Localities}
 \source{
-Unknown source
+Direction des Travaux geographiques et de la cartographie, Senegal.
 }
 \usage{
 sn_localities()

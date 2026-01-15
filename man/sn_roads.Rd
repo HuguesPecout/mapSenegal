@@ -4,7 +4,7 @@
 \alias{sn_roads}
 \title{Roads}
 \source{
-Unknown source
+Direction des Travaux geographiques et de la cartographie, Senegal.
 }
 \usage{
 sn_roads()
@@ -13,10 +13,11 @@ sn_roads()
 An sf object is returned.
 }
 \description{
-National and departmental roads of Senegal.
+Roads of Senegal.
 \itemize{
+\item TYPE: road type. 1 for motorways, 2 for national roads, 3 for regional
+roads, 4 for departmental roads, 5 for other roads.
 \item NAME: road name
-\item TYPE: road type ("N" for national roads, "D" for departmental roads)
 }
 }
 \examples{
